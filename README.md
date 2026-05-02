@@ -70,7 +70,7 @@ cd backend
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install fastapi uvicorn langchain_groq langgraph python-dotenv
-# Add GROQ_API_KEY to .env
+Add GROQ_API_KEY to .env
 uvicorn main:app --reload
 2. Frontend Setup
 cd frontend
